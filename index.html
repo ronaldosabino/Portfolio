@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    <title>Portfolio | Ronaldo Sabino</title>
+</head>
+
+<body>
+    <div id="portfolio">
+        <div class="container">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a href="#">
+                        <p>RFS</p>
+                    </a>
+
+                </div>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link">Sobre mim</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Habilidades</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()">
+                        <img class="icon" src="img/menu_white_36dp.svg" alt="">
+                    </button>
+                </div>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">Sobre Mim</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+
+    <header id="header">
+        <img src="img/fotoperfil.jpg" alt="Ronaldo Filipe Sabino">
+        <h1>Ronaldo Filipe Sabino</h1>
+        <!--
+        <div class="divider-icon"><i class="fa-thin fa-horizontal-rule"></i></div>
+        -->
+        <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <h3>Sobre mim</h3>
+            <!-- Line -->
+            <p>Estudante de Análise e Desenvolvimento de Sistemas, atualmente no 3° período. Desejo atuar em um ambiente de crescimento e perspectiva para a minha carreira em TI.</p>
+            <p>Tenho como experiência dois Projetos de Extensão em Tecnologia promovidos pela FACEPE, onde pude atuar como Scrum Master e Designer de Interfaces. Com isso, pude desenvolver soft skills como boa comunicação e trabalho em equipe.</p>
+        </section>
+
+        <section id="skills">
+            <h3>Habilidades</h3>
+            <!-- Line -->
+            <!-- imagens que expandem e detalham a habilidade -->
+            <div id="skills-container">
+                <div class="skills-card">
+                    <img src="img/html5.png" alt="HTML5">
+                    <p class="skill-name">HTML</p>
+                    <p class="skill-description">HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+                </div>
+
+                <div class="skills-card">
+                    <img src="img/css3.png" alt="CSS3">
+                    <p class="skill-name">CSS</p>
+                    <p class="skill-description">CSS é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML.</p>
+                </div>
+
+                <div class="skills-card">
+                    <img src="img/JS.PNG" alt="CSS3">
+                    <p class="skill-name">JavaScript</p>
+                    <p class="skill-description">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica e fraca.</p>
+                </div>
+
+                <div class="skills-card">
+                    <img src="img/python.png" alt="Python">
+                    <p class="skill-name">Python</p>
+                    <p class="skill-description">Python é uma linguagem de programação de alto nível, imperativa, orientada a objetos, de tipagem dinâmica e forte.</p>
+                </div>
+
+                <div class="skills-card">
+                    <img src="img/c.png" alt="Linguagem C">
+                    <p class="skill-name">C</p>
+                    <p class="skill-description">C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa e procedural.</p>
+                </div>
+
+                <div class="skills-card">
+                    <img src="img/figma.png" alt="Figma">
+                    <p class="skill-name">Figma</p>
+                    <p class="skill-description">Figma é um editor gráfico de prototipagem de projetos de design baseado principalmente no navegador web.</p>
+                </div>
+            </div>
+            <div>
+        </section>
+
+        <section id="contact">
+            <div id="form-inner">
+                <h3>Contate-me</h3>
+                <p>Para entrar em contato por email, preencha o formulário abaixo:</p>
+                <!-- Line -->
+                <form id="register-form" action="https://formsubmit.co/filiperonaldo1@gmail.com" method="POST">
+                    <div id="name-container">
+                        <input type="text" name="name" id="name-form" placeholder="Nome" required>
+                    </div>
+
+                    <div id="email-container">
+                        <input type="email" name="email" id="email-form" placeholder="Email" required>
+                    </div>
+
+                    <div id="number-conatiner">
+                        <input type="tel" name="number" id="number-form" placeholder="Número de telefone" required>
+                    </div>
+
+                    <div id="mensege-container">
+                        <input type="text" name="mensege" id="mensege-form" placeholder="Mensagem" required>
+                    </div>
+
+                    <div id="submit">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <h4 class="footer-title">Redes Sociais</h4>
+            <a class="icon" href="https://github.com/ronaldosabino" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            <a class="icon" href="https://www.linkedin.com/in/ronaldo-sabino-62053423b/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+
+            <a class="icon" href="https://wa.me/5581987678710" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="footer-container">
+            <h4 class="footer-title">Currículo</h4>
+            <a class="icon" href="pdf/curriculoronaldo.pdf" download="curriculoronaldo.pdf" type="application/pdf"><i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
