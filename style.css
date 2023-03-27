@@ -217,7 +217,7 @@ nav :hover{
 }
 
 #skills .subtitle{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
     padding-bottom: 3rem;
     max-width: 80%;
@@ -246,6 +246,7 @@ nav :hover{
 .skills-card:hover{
     background-color: #fff;
     color: #191414;
+    border: solid 3px #191414;
 }
 
 .skills-card img{
