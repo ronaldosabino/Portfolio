@@ -40,9 +40,6 @@ body{
 
 .logo a{
     text-decoration: none;
-}
-
-.logo p {
     color: #fff
 }
 
@@ -124,36 +121,58 @@ nav :hover{
 
 #header {
     display:flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
     background-color: #1db954;
     padding: 5.5rem 1rem;
     padding-top: 10.5rem;
     gap: 2rem;
     color: #fff;
-    width: 100%;
+}
+
+.txt-container{
+    text-align: center;
 }
 
 #header h1 {
     font-size: 2.8rem;
     font-weight: bold;
     text-transform: uppercase;
-    width: 80%;
+    padding-bottom: 1rem;
 }
 
 #header h2 {
     font-size: 1.4rem;
     font-weight: inherit;
-    width: 80%;
 }
 
 #header img {
-    height: 150px;
-    width: 150px;
-    border: solid 2px #464646;
-    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+
+}
+
+.button-curriculum{
+    background-color: #fff;
+    width: 230px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.1s;
+}
+
+.button-curriculum:hover{
+    border: solid 3px #191414;
+
+}
+
+.button-curriculum a{
+    color: #1db954;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight:300;
 }
 
 #about-me {
@@ -177,6 +196,7 @@ nav :hover{
     font-size: 1.2rem;
     line-height: 1.5rem;
     max-width: 80%;
+    text-align: justify;
 }
 
 #skills{
@@ -191,21 +211,30 @@ nav :hover{
 #skills h3{
     font-size: 2rem;
     text-transform: uppercase;
+    padding-bottom: 1rem;
+    max-width: 80%;
+    color: #fff;
+}
+
+#skills .subtitle{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     padding-bottom: 3rem;
     max-width: 80%;
+    text-align: center;
     color: #fff;
 }
 
 #skills-container{
     display: flex;
     flex-wrap:wrap;
-    gap: 2.5rem;
+    gap: 2.7rem;
     justify-content: center;
 }
 
 .skills-card{
-    border: solid 2px #464646;
-    border-radius: 15px;
+    border: solid 3px #464646;
+    border-radius: 25px;
     padding: 1rem;
     width: 300px;
     text-align: center;
@@ -294,20 +323,31 @@ nav :hover{
 
 #footer{
     background-color: #191414;
-    display: flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
     color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: lighter;
 }
 
-.footer-title{
-    margin-bottom: 1.4rem;
-    font-size: 1.5rem;
+.footer-container-i {
+    padding: 2rem 0;
 }
 
-.footer-container {
-    text-align: center;
-    padding: 3rem 3.2rem;
+.footer-container-ii{
+    padding: 2rem 0;
+}
+
+.more-info{
+    line-height: 1.9rem;
+    font-weight: normal;
+}
+
+.more-info span{
+    padding: 0 0.1rem;
+    color: #fff;
+    font-weight: lighter;
 }
 
 #footer a{
@@ -320,25 +360,3 @@ nav :hover{
 #footer a:hover{
     color: #1db954;
 }
-
-
-/*
-@media (max-width: 450px) {
-    body{flex-direction: column;
-    }
-
-    
-
-}*/
-/*
-.skills-card .skill-description{
-    color:#aaa;
-}
-*/
-
-/*
-    color: #264de4;
-    color: #2965f1;
-    color: #ebebeb;
-    color: #fff;
-*/

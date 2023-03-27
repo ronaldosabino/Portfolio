@@ -16,8 +16,8 @@
         <div class="container">
             <nav class="nav-bar">
                 <div class="logo">
-                    <a href="#">
-                        <p>RFS</p>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-house"></i>
                     </a>
 
                 </div>
@@ -66,26 +66,32 @@
     </div>
 
     <header id="header">
-        <img src="img/fotoperfil.jpg" alt="Ronaldo Filipe Sabino">
-        <h1>Ronaldo Filipe Sabino</h1>
-        <!--
-        <div class="divider-icon"><i class="fa-thin fa-horizontal-rule"></i></div>
-        -->
-        <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+        <div class="img-container">
+            <img src="img/image-removebg.png" alt="Ronaldo Filipe Sabino">
+        </div>
+        
+        <div class="txt-container">
+            <h1>Ronaldo Filipe Sabino</h1>
+            <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+        </div>
+
+        <button class="button-curriculum">
+            <a href="pdf/curriculoronaldo.pdf" download="curriculoronaldo.pdf" type="application/pdf"><i class="fa-solid fa-file-arrow-down"></i> Baixar currículo</a>
+        </button>
+
     </header>
 
     <main>
         <section id="about-me">
             <h3>Sobre mim</h3>
-            <!-- Line -->
             <p>Estudante de Análise e Desenvolvimento de Sistemas, atualmente no 3° período. Desejo atuar em um ambiente de crescimento e perspectiva para a minha carreira em TI.</p>
             <p>Tenho como experiência dois Projetos de Extensão em Tecnologia promovidos pela FACEPE, onde pude atuar como Scrum Master e Designer de Interfaces. Com isso, pude desenvolver soft skills como boa comunicação e trabalho em equipe.</p>
         </section>
 
         <section id="skills">
             <h3>Habilidades</h3>
-            <!-- Line -->
-            <!-- imagens que expandem e detalham a habilidade -->
+            <p class="subtitle">Selecione um card para visualizar</p>
+
             <div id="skills-container">
                 <div class="skills-card">
                     <img src="img/html5.png" alt="HTML5">
@@ -100,9 +106,9 @@
                 </div>
 
                 <div class="skills-card">
-                    <img src="img/JS.PNG" alt="JavaScript">
+                    <img src="img/javascript.PNG" alt="JavaScript">
                     <p class="skill-name">JavaScript</p>
-                    <p class="skill-description">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica e fraca.</p>
+                    <p class="skill-description">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica.</p>
                 </div>
 
                 <div class="skills-card">
@@ -123,14 +129,14 @@
                     <p class="skill-description">Figma é um editor gráfico de prototipagem de projetos de design baseado principalmente no navegador web.</p>
                 </div>
             </div>
-            <div>
+
         </section>
 
         <section id="contact">
             <div id="form-inner">
-                <h3>Contate-me</h3>
+                <h3>Enviar mensagem</h3>
                 <p>Para entrar em contato por email, preencha o formulário abaixo:</p>
-                <!-- Line -->
+
                 <form id="register-form" action="https://formsubmit.co/3c11c2705fa98ec07fd4ad7fa99e76ae" method="POST">
                     <div id="name-container">
                         <input type="text" name="name" id="name-form" placeholder="Nome" required>
@@ -157,18 +163,20 @@
     </main>
 
     <footer id="footer">
-        <div class="footer-container">
-            <h4 class="footer-title">Redes Sociais</h4>
+        <div class="footer-container-i">
+            <div class="more-info">
+                <p><span>Endereço:</span> Recife • PE • Brasil</p>
+                <p><span>Email:</span><a href="mailto:filiperonaldo1@gmail.com">filiperonaldo1@gmail.com</a></p>
+                <p><span>Telefone:</span><a href="tel:+55 81 98767-8710">+55 81 98767-8710</a></p>
+            </div>  
+        </div>
+
+        <div class="footer-container-ii">
             <a class="icon" href="https://github.com/ronaldosabino" target="_blank"><i class="fa-brands fa-github"></i></a>
 
             <a class="icon" href="https://www.linkedin.com/in/ronaldo-sabino-62053423b/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
 
             <a class="icon" href="https://wa.me/5581987678710" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="footer-container">
-            <h4 class="footer-title">Currículo</h4>
-            <a class="icon" href="pdf/curriculoronaldo.pdf" download="curriculoronaldo.pdf" type="application/pdf"><i class="fa-solid fa-file-pdf"></i></a>
         </div>
 
     </footer>
