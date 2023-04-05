@@ -144,8 +144,9 @@ nav :hover{
 }
 
 #header h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: inherit;
+    padding-bottom: 1rem;
 }
 
 #header img {
@@ -217,7 +218,7 @@ nav :hover{
 }
 
 #skills .subtitle{
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     line-height: 1.5rem;
     padding-bottom: 3rem;
     max-width: 80%;
