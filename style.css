@@ -162,6 +162,7 @@ nav :hover{
     border-radius: 50px;
     border: none;
     transition: 0.1s;
+    cursor: pointer;
 }
 
 .button-curriculum:hover{
@@ -169,7 +170,7 @@ nav :hover{
 
 }
 
-.button-curriculum a{
+.button-curriculum{
     color: #1db954;
     text-decoration: none;
     font-size: 1.5rem;
@@ -339,6 +340,10 @@ nav :hover{
 
 .footer-container-ii{
     padding: 2rem 0;
+}
+
+.iii {
+    padding-bottom: 1rem;
 }
 
 .more-info{
