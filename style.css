@@ -40,7 +40,8 @@ body{
 
 .logo a{
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    font-size: 1.3rem;
 }
 
 .nav-list {
@@ -126,7 +127,7 @@ nav :hover{
     justify-content: space-around;
     text-align: center;
     background-color: #1db954;
-    padding: 5.5rem 1rem;
+    padding: 5.6rem 1rem;
     padding-top: 10.5rem;
     gap: 2rem;
     color: #fff;
@@ -146,7 +147,7 @@ nav :hover{
 #header h2 {
     font-size: 24px;
     font-weight: inherit;
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
 }
 
 #header img {
@@ -180,7 +181,7 @@ nav :hover{
 #about-me {
     color: #1db954;
     background-color: #fff;
-    padding: 5.5rem 1rem;
+    padding: 6rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,7 +199,6 @@ nav :hover{
     font-size: 1.2rem;
     line-height: 1.5rem;
     max-width: 80%;
-    text-align: justify;
 }
 
 #skills{
@@ -206,7 +206,7 @@ nav :hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 5.5rem 1rem;
+    padding: 6rem 1rem;
     background-color: #1db954;
 }
 
@@ -219,9 +219,10 @@ nav :hover{
 }
 
 #skills .subtitle{
-    font-size: 0.95rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     line-height: 1.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2.8rem;
     max-width: 80%;
     text-align: center;
     color: #fff;
@@ -232,6 +233,7 @@ nav :hover{
     flex-wrap:wrap;
     gap: 2.7rem;
     justify-content: center;
+    max-width: 100%;
 }
 
 .skills-card{
@@ -271,7 +273,7 @@ nav :hover{
 #contact{
     color:#fff;
     background-image: url(img/bg.jpeg);
-    padding: 5.5rem 1rem;
+    padding: 6rem 1rem;
     display: flex;
     justify-content: center;
     
@@ -285,6 +287,7 @@ nav :hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 95%;
 }
 
 #form-inner h3{
@@ -306,6 +309,7 @@ nav :hover{
     padding: 0.8rem 0.6rem;
     border: solid #000 1px;
     border-radius: 3px;
+    width: 15rem;
 }
 
 #register-form input[type="submit"] {
@@ -339,11 +343,11 @@ nav :hover{
 }
 
 .footer-container-ii{
-    padding: 2rem 0;
+    padding: 0 2rem;
 }
 
-.iii {
-    padding-bottom: 1rem;
+.footer-container-iii {
+    padding: 2rem;
 }
 
 .more-info{
